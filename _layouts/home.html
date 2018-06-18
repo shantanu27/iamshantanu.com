@@ -1,38 +1,29 @@
 {% include header.html %}
+<div class="hero-container" style="margin: 5em 0 0em 0;">
+  <header class="masthead">
+    <img src="{{ site.baseurl }}/img/profile.jpg" alt="Shantanu Mukherjee">
+  </header>
+</div>
 
-    {% include home-hero.html %}
+<div class="hero-content">
+  <h1 class="text-center">Hello!<br>I am Shantanu Mukherjee.</h1>
 
-    <main id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+  <p class="text-center" style="margin: 2em 0 0em 0;">
+    I am a Software Engineer with particular keen interest in building robust, scalable solutions to problems!
+    When not coding, I also make and record <a href="https://www.youtube.com/channel/UCn5BpgsTXcUJk1jnWIIhOxQ" target="_blank">music</a>. 
+    And when I am not doing that, I am out playing Soccer, Ultimate Frisbee, and gobbling up movies!
+  </p>
 
-            {% if site.data.posts.section_title != '' %}
-            <h2 class="section-title text-center">{{ site.data.posts.section_title }}</h2>
-            {% endif %}
-            {% if site.data.posts.section_subtitle != '' %}
-            <p class="section-subtitle text-center">{{ site.data.posts.section_subtitle }}</p>
-            {% endif %}
+  <div class="button-center">
+    <a href="{{ site.baseurl }}/projects/"><button class="btn btn-default btn-lg">See my Projects!</button></a>
+  </div>
 
-            <div class="break"></div>
-
-            {% for post in paginator.posts %}
-              <div class="wow fadeIn">
-              {% if post.position == "left" %}
-                {% include content-left.html %}
-              {% endif %}
-
-              {% if post.position == "right" %}
-                {% include content-right.html %}
-              {% endif %}
-              </div>
-            {% endfor %}
-
-            {% include pagination.html %}
-
-          </div>
-        </div>
-      </div>
-    </main>
-
-{% include footer.html %}
+</div>
+<footer>
+  <h2 class="text-center">Get in touch!</h2>
+  <p class="text-center">Send me a message on <a href="https://www.linkedin.com/in/shantanu-mukherjee/">LinkedIn</a>, 
+    <a href="https://twitter.com/shantanu_bits">Twitter</a>, or just 
+   {% include contact.html %}
+   {% include contact-modal.html %}
+  </p>
+</footer>
