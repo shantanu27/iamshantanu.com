@@ -4,7 +4,7 @@ title: 'Wikipedia Data Analysis using MapReduce'
 date: 2018-06-01 08:00:00
 categories: Tech
 tags: Python Cloud MapReduce Hadoop AWS
-featured_image: 'img/posts/01_map_reduce.jpeg'
+featured_image: '/img/posts/thumbnails/01_map_reduce.jpeg'
 project_link: 'https://github.com/shantanu27/Parallel-Analysis'
 lead_text: 'Big Data Analytics on a large Wikipedia dataset done in the Cloud (AWS)'
 ---

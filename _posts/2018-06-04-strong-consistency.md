@@ -3,7 +3,8 @@ layout: inner
 title: 'Distributed Key-Value Stores with Strong (Causal) and Eventual Consistencies'
 date: 2018-06-04 08:00:00
 categories: Tech
-tags: Java Multi-Threading Consistency
+tags: Java Multi-Threading Consistency AWS
+featured_image: '/img/posts/thumbnails/04_consistency.png'
 project_link: 'https://github.com/shantanu27/Multithreading-and-Consistency'
 lead_text: 'Distributed Key-Value Stores with Strong (Causal) and Eventual Consistencies'
 ---

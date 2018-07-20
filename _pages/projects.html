@@ -1,0 +1,28 @@
+---
+layout: projects_structure
+permalink: /projects/
+title: Projects
+---
+
+<div class="row" style="margin-left: 2%; margin-right: 2%">
+  <h1>Projects</h1>
+</div>
+{% for post in site.posts %}
+  <hr/>
+  <div class="row" style="margin-left: 2%; margin-right: 2%">
+    <div class="col-md-2" style="display: inline-block;width: 20%;height: 20%;">
+      {% if post.featured_image %}
+        <img src="http://127.0.0.1:4000{{ post.featured_image }}"/>
+      {% else %}
+        <img src="img/posts/06_map_render.png" align="center" />
+      {% endif %} 
+    </div>
+    <div class="col-md-9" style="display: inline-block;">
+      <p><a href="{{ BASE_PATH }}{{ post.url }}"><h3>{{ post.title }}</h3></a></p>
+      <!-- <p>{{ post.content | strip_html | truncatewords: 40 }}</p> -->
+      {% for tag in post.tags %}
+        <span class="label label-success">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

@@ -4,7 +4,7 @@ title: 'High Performant, Scalable Twitter Analytics Web Service in the Cloud'
 date: 2018-07-16 08:00:00
 categories: Tech
 tags: Java SpringBoot Hibernate Undertow MapReduce Maven MySQL HBase Terraform GCP AWS
-featured_image: 'img/posts/07_twitter_analytics'
+featured_image: '/img/posts/thumbnails/07_twitter_analytics-3.jpg'
 project_link: 'https://github.com/CloudComputingTeamProject/LLagGayeBC-S18'
 lead_text: 'High Performant, Scalable Twitter Analytics Web-Service in the Cloud'
 ---

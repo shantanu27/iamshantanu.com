@@ -4,7 +4,7 @@ title: 'Python Interpreter using Docker and Kubernetes'
 date: 2018-06-02 08:00:00
 categories: Tech
 tags: Python Flask Docker Kubernetes Azure GCP
-featured_image: 'img/posts/02_docker.png'
+featured_image: '/img/posts/thumbnails/02_docker.png'
 project_link: 'https://github.com/shantanu27/Docker-and-Kubernetes'
 lead_text: 'Python Interpreter using Docker and Kubernetes'
 ---

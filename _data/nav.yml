@@ -1,4 +1,4 @@
 main:
     - { url: '/', text: 'Home' }
-    - { url: '/about', text: 'About' }
     - { url: '/projects', text: 'Projects'}
+    - { url: '/music', text: 'Music'}

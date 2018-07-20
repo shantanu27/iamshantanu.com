@@ -4,7 +4,7 @@ title: 'Social Networking Timeline with Heterogenous Backends'
 date: 2018-06-03 08:00:00
 categories: Tech
 tags: Java MySQL MongoDB HBase MapReduce
-featured_image: 'img/posts/03_social_timeline.png'
+featured_image: '/img/posts/thumbnails/03_social_timeline.jpg'
 project_link: 'https://github.com/shantanu27/Social-Network'
 lead_text: 'Social Networking Timeline with Heterogeneous Backends'
 ---
