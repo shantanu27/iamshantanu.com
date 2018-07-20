@@ -12,7 +12,7 @@ title: Projects
   <div class="row" style="margin-left: 2%; margin-right: 2%">
     <div class="col-md-2" style="display: inline-block;width: 20%;height: 20%;">
       {% if post.featured_image %}
-        <img src="http://127.0.0.1:4000{{ post.featured_image }}"/>
+        <img src="{{ BASE_PATH }}{{ post.featured_image }}"/>
       {% else %}
         <img src="img/posts/06_map_render.png" align="center" />
       {% endif %} 
