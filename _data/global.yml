@@ -1,7 +1,7 @@
 # Site Settings
 title: "Hello. I'm Shantanu Mukherjee."
 description: 
-url: 'http://shantanu27.github.io/phantom/' # the base hostname & protocol for your site
+url: 'https://shantanu27.github.io/' # the base hostname & protocol for your site
 nav: "true"
 footer_text: '© 2016 Shantanu Mukherjee'
 twitter: 'shantanu_bits'
