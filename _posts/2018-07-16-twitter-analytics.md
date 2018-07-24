@@ -13,7 +13,7 @@ lead_text: 'High Performant, Scalable Twitter Analytics Web-Service in the Cloud
 	<img src="{{ '/img/posts/07_twitter_analytics-3.jpg' | site.baseurl }}" alt="Twitter Analytics" title="Source: Digital Trends">
 </header>
 
-As the title suggests, we designed, developed, and deployed a web service that met the throughput, budget, and query requirements set for this project. We were given over 1 Terabyte of raw tweets for our consumption. We, team of 3, had to design a high performant, reliable, and scalable web service that met the high throughput requirements within the budget. This was a massive project which spanned over a month.
+Twitter generates enormous amounts of data per day, and that data can be used to build APIs that make the platform even better. As the title suggests, we designed, developed, and deployed a web service that was high performant, reliable, and scalable, all done within the budget allocated for our team. We were given over 1 Terabyte of raw tweets for our consumption. We implemented 4 queries (APIs) for our web service which used this data in a processed form. This was a massive project which spanned over a month.
 
 ### What did I use?
 - Java
@@ -29,7 +29,7 @@ As the title suggests, we designed, developed, and deployed a web service that m
 - Amazon Web Services (AWS)
 
 ### Key Facts
-- **Number of queries -** 4
+- **Number of queries (APIs) -** 4
 - **Budget -** $150 (over 3 phases)
 - **Size of dataset -** over 1 Terabyte (TB) raw tweet data
 - **Throughput achieved (round figures) -**
