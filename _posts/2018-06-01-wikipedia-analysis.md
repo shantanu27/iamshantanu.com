@@ -22,7 +22,7 @@ Wikipedia is often a great reflector of current events. Pages that are being acc
 
 ### Data Pre-processing
 
-The amount of data to process was huge. Before it could be analysed, it needed to be filtered and process into a form which could be later fed to different analysis libraries (in my case, *pandas*). Some of the properties of interest were - only English pages, no malformed data, URL normalization and percent-encoding, only [Wikipedia namespaces](https://en.wikipedia.org/wiki/Wikipedia:Namespace), article title limitations, blacklisted file extensions, [Wikipedia Disambiguations](https://en.wikipedia.org/wiki/Wikipedia:Disambiguation) etc. 
+The amount of data to process was huge. Before it could be analysed, it needed to be filtered and processed into a form which could be later fed to different analysis libraries (in my case, *pandas*). Some of the properties of interest were - only English pages, no malformed data, URL normalization and percent-encoding, only [Wikipedia namespaces](https://en.wikipedia.org/wiki/Wikipedia:Namespace), article title limitations, blacklisted file extensions, [Wikipedia Disambiguations](https://en.wikipedia.org/wiki/Wikipedia:Disambiguation) etc. 
 
 As you can see, there were lot of cases which needed to be handled. To make it easier to incorporate these cases, debug, and easily scale, I decided to break all the pre-processing components into granular functions, where each function just had one role - tell whether the input could be filtered. I could then 'chain' the functions in any order desired, enabling me to add/remove conditions, and debug easily if something didn't work as expected. Like -
 
